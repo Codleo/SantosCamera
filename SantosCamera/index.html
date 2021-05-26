@@ -1,0 +1,45 @@
+<html xmlns="http://www.w3.org/1999/xhtml style=" height: 100%>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<head>
+    <meta charset="utf-8" />
+    <title>Santos Cameras mapeadas</title>
+    <script>
+        function imageRefresh(img, timeout) {
+            setTimeout(function () {
+                var d = new Date;
+                var http = img.src;
+                if (http.indexOf("&d") != -1) { http = http.split("&d")[0]; }
+
+                img.src = http + '&d' + d.getTime();
+            }, timeout);
+        }
+
+        // setTimeout(function () { window.location = window.location; }, 10000); //reload da pagina
+    </script>
+</head>
+<body onload="" style="margin: 0px; background: #0e0e0e; height: 100%">
+    <p>snap_c1.jpg (768×432)</p>
+    <center>
+        <img onload='imageRefresh(this, 5000);'loading="lazy" class="hidden-lg hidden-md" Cache-control: no-cache ,must-revalidate id="imgFotoM" style="margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;"
+             src="https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/cam1464/snap_c1.jpg?1.621.608.313.3302"
+             alt="Imagem câmera" width="90%" height="90%" onerror="this.onerror = null" this.src='https://egov.santos.sp.gov.br/santosmapeada/css/img/erro_camera.png' ;>
+        <div id="root"></div>
+    </center>
+
+
+
+    <!-- <script src="./dist/app-bundle.js"></script>-->
+
+
+    <p>
+        <script>
+            //updateImage();  class="NO-CACHE" Cache-control: no-cache ,must-revalidate,no-store,
+            Function();
+            imageRefresh();
+                            //Function();
+        </script>
+    </p>
+</body>
+</html>
