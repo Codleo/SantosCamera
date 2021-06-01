@@ -32,15 +32,57 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="AvenidaMartinsFontes.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Balsa.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Canoagem.html">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="dist\app-bundle.js" />
     <Content Include="dist\app-bundle.js.map" />
+    <Content Include="Divisa.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="EntradaCidade.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="EntradaCidade1.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="EntradaCidadeAnchieta.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="EntradaCidadePonte.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Gonzaga.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Independencia.html">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="index.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="FonteSapo.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Mendes.html">
       <SubType>Code</SubType>
     </Content>
     <Content Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="TravessiaBalsa.html">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="tsconfig.json">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="TunelRubensFerreira.html">
       <SubType>Code</SubType>
     </Content>
     <Content Include="webpack-config.js">
