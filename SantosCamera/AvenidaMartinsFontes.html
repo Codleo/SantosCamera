@@ -6,17 +6,6 @@
 <head>
     <meta charset="utf-8" />
     <title>Avenida Martins Fontes</title>
-    <script>
-        function imageRefresh(img, timeout) {
-            setTimeout(function () {
-                var d = new Date;
-                var http = img.src;
-                if (http.indexOf("&d") != -1) { http = http.split("&d")[0]; }
-
-                img.src = http + '&d' + d.getTime();
-            }, timeout);
-        }
-    </script>
 </head>
 <body onload="" style="margin: 0px; background: #0e0e0e; height: 100%">
     <p>snap_c1.jpg (768×432)</p>
@@ -26,12 +15,32 @@
              alt="Imagem câmera" width="90%" height="90%">
         <div id="root"></div>
     </center>
-    <p>
+   
         <script>
+            function mudarImagem(event) {
+                var tecla = event.keyCode;
+                console.log(tecla);
+                if (tecla == 37) {
+                    window.location.href = "EntradaCidadeAnchieta.html";
+                }
+                else if (tecla == 39) {
+                    window.location.href = "TunelRubensFerreira.html";
+                }
+            }
 
-            Function();
-            imageRefresh();
+            document.addEventListener("keydown", (e) => mudarImagem(e));
+
+            function imageRefresh(img, timeout) {
+                setTimeout(function () {
+                    var d = new Date;
+                    var http = img.src;
+                    if (http.indexOf("&d") != -1) { http = http.split("&d")[0]; }
+
+                    img.src = http + '&d' + d.getTime();
+
+                }, timeout);
+            }
         </script>
-    </p>
+  
 </body>
 </html>

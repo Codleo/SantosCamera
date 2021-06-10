@@ -2,13 +2,42 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<meta http-equiv="refresh" content="5;url=index.html"> 
+<meta http-equiv="refresh" content="5;url=index.html">
 
 <head>
     <meta charset="utf-8" />
     <title>Mercado do Peixe</title>
 
+</head>
+
+<body onload="" style="margin: 0px; background: #0e0e0e; height: 100%">
+    <p>snap_c1.jpg (768×432)</p>
+    <center>
+        <img onload='imageRefresh(this, 5000);' loading="lazy" class="hidden-lg hidden-md" Cache-control: no-cache
+             ,must-revalidate id="imgFotoM" onclick='window.location.href = "Mendes.html"'
+             style="margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;"
+             src="https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/cam382/snap_c1.jpg?1622558777028"
+             alt="Imagem câmera" width="90%" height="90%">
+        <div id="root"></div>
+    </center>
+
     <script>
+        function mudarImagem(event) {
+            var tecla = event.keyCode;
+            console.log(tecla);
+            // 37=esquerda  38=cima 39=direita 40=baixo
+            if (tecla == 37) {
+                console.log("esquerda");
+                window.location.href = "TunelRubensFerreira.html";
+            }
+            else if (tecla == 39) {
+                console.log("direita");
+                window.location.href = "Mendes.html";
+            }
+        }
+
+        document.addEventListener("keydown", (e) => mudarImagem(e));
+
         function imageRefresh(img, timeout) {
             setTimeout(function () {
                 var d = new Date;
@@ -16,56 +45,45 @@
                 if (http.indexOf("&d") != -1) { http = http.split("&d")[0]; }
 
                 img.src = http + '&d' + d.getTime();
+
             }, timeout);
         }
-       /* var currentImgIndex = 1;
-        var ImgSrcArray = [ //caminho das suas imgs aqui
-            window.location = Balsa.html,
-            window.location=FonteSapo.html,
-            window.location=Gonzaga.html,
-           /* 'https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/cam1464/snap_c1.jpg?1.621.608.313.3302', //Canoagem
-            'https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/cam1517/snap_c1.jpg?1.622.471.949.176', //Fonte do Sapo
-            'https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/cam1529/snap_c1.jpg?1622472225128', //Praça das Bandeiras
-            'https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/cam380/snap_c1.jpg?1622552586364'  //Sentido Balsa
-        ];
 
-        function trocar() {
 
-            if (currentImgIndex == ImgSrcArray.length) //reseta quando o contatador for igual ao tamanho da array e volta a 1° img
-            {
-                currentImgIndex = 0;
-            }
-            document.getElementById("imgFotoM").src = ImgSrcArray[currentImgIndex]; //altera a img do elemento de acordo com o indice
-            currentImgIndex++; // incrementa a nossa referencia
 
-        }
-        */
 
-        // setTimeout(function () { window.location = window.location; }, 10000); //reload da pagina
 
-        
+            //https://www.youtube.com/watch?v=P1gQ7Ppd48U
+            //https://www.youtube.com/watch?v=pZNeUcCPwEs
+        /* var currentImgIndex = 1;
+          var ImgSrcArray = [ //caminho das suas imgs aqui
+             window.location = Balsa.html,
+             window.location=FonteSapo.html,
+             window.location=Gonzaga.html,
+            /* 'https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/cam1464/snap_c1.jpg?1.621.608.313.3302', //Canoagem
+             'https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/cam1517/snap_c1.jpg?1.622.471.949.176', //Fonte do Sapo
+             'https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/cam1529/snap_c1.jpg?1622472225128', //Praça das Bandeiras
+             'https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/cam380/snap_c1.jpg?1622552586364'  //Sentido Balsa
+          ];
+
+          function trocar() {
+              if (currentImgIndex == ImgSrcArray.length) //reseta quando o contatador for igual ao tamanho da array e volta a 1° img
+              {
+                  currentImgIndex = 0;
+              }
+              document.getElementById("imgFotoM").src = ImgSrcArray[currentImgIndex]; //altera a img do elemento de acordo com o indice
+              currentImgIndex++; // incrementa a nossa referencia
+          }
+         */
+
+            // setTimeout(function () { window.location = window.location; }, 10000); //reload da pagina
     </script>
-</head>
-<body onload="" style="margin: 0px; background: #0e0e0e; height: 100%">
-    <p>snap_c1.jpg (768×432)</p>
-    <center>
-        <img onload='imageRefresh(this, 5000);' loading="lazy" class="hidden-lg hidden-md" Cache-control: no-cache ,must-revalidate id="imgFotoM" onclick='window.location.href = "Mendes.html"' style="margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;"
-             src="https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/cam382/snap_c1.jpg?1622558777028"
-             alt="Imagem câmera" width="90%" height="90%" >
-        <div id="root"></div>
-    </center>
 
-    
     <!--onload='imageRefresh(this, 5000);'
-     <script src="./dist/app-bundle.js"></script>-->
+       <script src="./dist/app-bundle.js"></script>-->
 
 
-    <p>
-        <script>
-            //updateImage();  class="NO-CACHE" Cache-control: no-cache ,must-revalidate,no-store,
-            imageRefresh();
-            Function();
-        </script>
-    </p>
+
 </body>
+
 </html>
