@@ -32,13 +32,41 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="AnaCostaSentidoCentro.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="AnaCostaSentidoPraia.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="AnaCostaxCarvalho.html">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="AvenidaMartinsFontes.html">
       <SubType>Code</SubType>
     </Content>
     <Content Include="Balsa.html">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="canal1.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="canal3.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Canal3xRuaGoias.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="canal4.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="canal6.html" />
     <Content Include="Canoagem.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="ConselheiroLafayette.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="ConselheiroNebiasPraia.html">
       <SubType>Code</SubType>
     </Content>
     <Content Include="dist\app-bundle.js" />
@@ -58,6 +86,12 @@
     <Content Include="EntradaCidadePonte.html">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="EpitacioCanal4.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="EpitacioCanal5.html">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="Gonzaga.html">
       <SubType>Code</SubType>
     </Content>
@@ -70,7 +104,13 @@
     <Content Include="FonteSapo.html">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="MarechalDeodoroXEuclidesCunha.html">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="Mendes.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="PracaCanal4.html">
       <SubType>Code</SubType>
     </Content>
     <Content Include="server.js" />
