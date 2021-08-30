@@ -104,13 +104,32 @@
     <Content Include="FonteSapo.html">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="LinhaVermelha.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Marape.html">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="MarechalDeodoroXEuclidesCunha.html">
       <SubType>Code</SubType>
     </Content>
     <Content Include="Mendes.html">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="PracaBaraoRioBranco.html" />
     <Content Include="PracaCanal4.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="PracaRepublica.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Rodoviaria.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="RuaIntanhaem.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="SentidoUnip.html">
       <SubType>Code</SubType>
     </Content>
     <Content Include="server.js" />
